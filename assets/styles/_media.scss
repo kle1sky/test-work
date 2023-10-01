@@ -1,0 +1,71 @@
+@media screen and (max-width: 1400px) {
+  .separator {
+    display: none;
+  }
+
+  .container {
+    padding: 2.5rem;
+  }
+
+  .content {
+    margin: 0 auto;
+  }
+
+  .aside {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  .carousel {
+    height: 17.125rem;
+
+    &__nav {
+      margin: 0 auto;
+    }
+
+    &__item {
+      width: 14rem;
+      height: auto;
+    }
+  }
+
+  .item {
+    &__heading {
+      font-size: 0.9rem;
+    }
+
+    &__date {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    padding: 1.25rem;
+  }
+
+  .article__group {
+    font-size: 1rem;
+  }
+
+  .article__heading {
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+
+  .info {
+    font-size: 0.8rem;
+    justify-content: space-around;
+
+    &__theme {
+      margin-left: 0;
+    }
+
+    &__share {
+      margin-left: 0;
+      font-size: 0.8rem;
+    }
+  }
+}
